@@ -68,3 +68,4 @@ Having launched the repl Maker can perform the usual tasks one would expect from
 
 Maker knows the dependencies between tasks, both across tasks of different types (e.g. `compile` must be executed before `testCompile`) and also taking into account module dependencies (all upstream compilation must succeed before any module is compiled).
 
+
